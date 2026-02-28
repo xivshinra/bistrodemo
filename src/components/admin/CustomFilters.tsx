@@ -121,6 +121,7 @@ export function CustomFilters({ items, onFilterChange }: CustomFiltersProps) {
               onValueChange={setSelectedTags}
               variant="outline"
               size="sm"
+              className="text-muted-foreground"
             >
               {availableTags.map((tag) => (
                 <ToggleGroupItem

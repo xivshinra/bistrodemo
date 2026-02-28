@@ -113,9 +113,11 @@ export function MenuItemCard({ item }: MenuItemCardProps) {
         <CardAction>
           <Sheet>
             <SheetTrigger asChild>
-              <Button>
-                <Settings />
-                Modifier
+              <Button
+                variant="outline"
+                size="icon"
+              >
+                <Settings className="h-4 w-4" />
               </Button>
             </SheetTrigger>
             <SheetContent>
