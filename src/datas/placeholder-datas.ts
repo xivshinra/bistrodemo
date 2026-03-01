@@ -32,7 +32,7 @@ export const burgerDatas: MenuItem[] = [
     id: "burger-1",
     name: "Le Classic",
     price: 9.9,
-    image: "/assets/burgers/burger-classic.jpg",
+    image: "/assets/burgers/burger-classic.png",
     ingredients: [
       "1x Steack boeuf",
       "Salade",
@@ -46,12 +46,12 @@ export const burgerDatas: MenuItem[] = [
   {
     id: "burger-2",
     name: "Le BBQ Smoky",
-    price: 11.5,
+    price: 11.9,
     image: "/assets/burgers/burger-bbq.png",
     ingredients: [
       "1x Steack boeuf",
       "Bacon",
-      "Oignons caramélisés",
+      "Oignons",
       "Cheddar",
       "Sauce BBQ",
     ],
@@ -61,7 +61,7 @@ export const burgerDatas: MenuItem[] = [
   {
     id: "burger-3",
     name: "Le Double",
-    price: 13.9,
+    price: 12.9,
     image: "/assets/burgers/burger-double.png",
     ingredients: [
       "2x Steack boeuf",
@@ -76,7 +76,7 @@ export const burgerDatas: MenuItem[] = [
   {
     id: "burger-4",
     name: "Le Veggie",
-    price: 10.5,
+    price: 11.9,
     image: "/assets/burgers/burger-veggie.png",
     ingredients: [
       "Galette légumes",
@@ -91,9 +91,15 @@ export const burgerDatas: MenuItem[] = [
   {
     id: "burger-5",
     name: "Le Crispy Chicken",
-    price: 10.9,
+    price: 12.9,
     image: "/assets/burgers/burger-chicken.png",
-    ingredients: ["Poulet pané", "Coleslaw", "Cornichons", "Sauce ranch"],
+    ingredients: [
+      "Poulet pané",
+      "Coleslaw",
+      "Cheddar",
+      "Cornichons",
+      "Sauce ranch",
+    ],
     tags: ["Populaire"],
     available: true,
   },

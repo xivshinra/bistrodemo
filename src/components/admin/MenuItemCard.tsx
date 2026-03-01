@@ -80,15 +80,15 @@ export function MenuItemCard({ item }: MenuItemCardProps) {
           alt={item.name}
           width={300}
           height={200}
-          className="w-full aspect-video object-cover mb-2 md:mb-4 rounded-sm"
+          className="w-full aspect-video object-cover mb-2 md:mb-4 rounded-sm pointer-events-none"
           loading="eager"
         />
         <CardDescription>
-          <div className="flex gap-1 md:gap-2 flex-wrap">
+          <div className="flex gap-1 flex-wrap">
             {item.ingredients.map((ingredient) => (
               <Badge
                 key={ingredient}
-                variant="ghost"
+                variant="outline"
               >
                 {ingredient}
               </Badge>
