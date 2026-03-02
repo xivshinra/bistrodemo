@@ -43,7 +43,9 @@ export default function RootLayout({
         >
           <main className="px-4 max-w-360 mx-auto">
             <header className="flex justify-between items-center mb-8 border-b py-4">
-              <p className="font-medium text-lg md:text-xl">Bistrodemo</p>
+              <Link href="/">
+                <h1 className="font-medium text-lg md:text-xl">Bistrodemo</h1>
+              </Link>
               <div className="flex gap-2 md:gap-4">
                 <ModeToggle />
                 <Button
